@@ -15,7 +15,7 @@ services:
       - '2201:8080'
     environment:
       - DB_HOST=db
-      - DB_PORT=2200
+      - DB_PORT=5432
       - DB_DB=mch
       - DB_USER=postgres
       - DB_PASS=postgres
