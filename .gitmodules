@@ -1,0 +1,6 @@
+[submodule "MoscowCityHack-Front"]
+	path = MoscowCityHack-Front
+	url = https://github.com/RTUITLab/MoscowCityHack-Front
+[submodule "MoscowCityHack-Back"]
+	path = MoscowCityHack-Back
+	url = https://github.com/RTUITLab/MoscowCityHack-Back

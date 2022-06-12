@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=mch
+    ports:
+      - '5432:5432'
+
+  mch-back:
+    build: ./MoscowCityHack-Back/
+    ports:
+      - '8090:8080'
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_DB=mch
+      - DB_USER=postgres
+      - DB_PASS=postgres
+    depends_on:
+      - db
+
+  front:
+    build: ./MoscowCityHack-Front/
+    
