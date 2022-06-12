@@ -26,4 +26,9 @@ services:
     build: ./MoscowCityHack-Front/
     ports:
       - '2202:3000'
-    
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 2203:8080
