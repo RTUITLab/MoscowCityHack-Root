@@ -7,15 +7,15 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=mch
     ports:
-      - '5432:5432'
+      - '2200:5432'
 
   mch-back:
     build: ./MoscowCityHack-Back/
     ports:
-      - '8090:8080'
+      - '2201:8080'
     environment:
       - DB_HOST=db
-      - DB_PORT=5432
+      - DB_PORT=2200
       - DB_DB=mch
       - DB_USER=postgres
       - DB_PASS=postgres
@@ -24,4 +24,6 @@ services:
 
   front:
     build: ./MoscowCityHack-Front/
+    ports:
+      - '2202:3000'
     
