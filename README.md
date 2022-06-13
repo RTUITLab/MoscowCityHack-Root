@@ -21,6 +21,8 @@
     <a href="https://github.com/RTUITLab/MoscowCityHack-Root/issues">Report Bug</a>
     ·
     <a href="https://github.com/RTUITLab/MoscowCityHack-Root/issues">Request Feature</a>
+    ·
+    <a href="https://mch.finebot.site/">Demo</a>
   </p>
 </div>
 
@@ -28,6 +30,7 @@
 
 1. [Stack](#stack)
 2. [Usage](#usage)
+3. [Demo](#demo)
 
 ## Stack
 
@@ -37,7 +40,7 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
+
 
 **Backend:**
 
@@ -70,6 +73,8 @@ docker-compose up --build
 
 [localhost:2201](http://localhost:2201) - Backend
 
+[localhost:2201](http://localhost:2200) - Adminer
+
 [contributors-shield]: https://img.shields.io/github/contributors/rtuitlab/MoscowCityHack-Root.svg
 [contributors-url]: https://github.com/RTUITLab/MoscowCityHack-Root/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/RTUITLab/MoscowCityHack-Root.svg
@@ -83,3 +88,9 @@ docker-compose up --build
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/RTUITLab
 [product-screenshot]: images/screenshot.png
+
+## Demo
+
+По ссылке https://mch.finebot.site/ запущен наш сервис. 
+
+https://mch.finebot.site/api/mch-back/graphiql — здесь доступен GraphiQL для тестирования бэкенда.
