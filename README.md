@@ -73,7 +73,7 @@ docker-compose up --build
 
 [localhost:2201](http://localhost:2201) - Backend
 
-[localhost:2201](http://localhost:2200) - Adminer
+[localhost:2203](http://localhost:2203) - Adminer
 
 [contributors-shield]: https://img.shields.io/github/contributors/rtuitlab/MoscowCityHack-Root.svg
 [contributors-url]: https://github.com/RTUITLab/MoscowCityHack-Root/graphs/contributors
